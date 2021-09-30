@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/alqarara" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/rectangel_1" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center|top"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"
+        android:text="بلدية القرارة"
+        android:textSize="30sp"
+        android:textStyle="bold"
+         />
+
+    <TextView
+        android:id="@+id/textName8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="95dp"
+        android:textColor="@color/white"
+        android:text="AlQarara of Municipality"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+</FrameLayout>
+    <!--  <ImageView
+          android:id="@+id/imageViewEmail"
+          android:layout_width="109dp"
+          android:layout_height="111dp"
+          android:layout_marginStart="40dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.506"
+          app:srcCompat="@drawable/logo" />
+
+
+      <TextView
+          android:id="@+id/textName"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="56dp"
+          android:layout_marginEnd="136dp"
+          android:text="fffffffffff"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.76"
+          app:layout_constraintStart_toEndOf="@+id/imageViewEmail"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <TextView
+          android:id="@+id/textEmail"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="24dp"
+          android:text="fffffffffff"
+          android:textSize="16sp"
+          app:layout_constraintEnd_toEndOf="@+id/textName"
+          app:layout_constraintHorizontal_bias="0.47"
+          app:layout_constraintStart_toStartOf="@+id/textName"
+          app:layout_constraintTop_toBottomOf="@+id/textName" />-->
+

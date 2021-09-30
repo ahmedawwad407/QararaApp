@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rectangel_1"
+    android:gravity="bottom"
+    android:orientation="horizontal">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColorHint="#CC000000"
+        android:textColor="#000"
+        android:hint=" Aa "
+        android:id="@+id/messageArea"
+        android:maxHeight="80dp"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:padding="4dp"
+        android:visibility="gone"
+        android:src="@android:drawable/ic_menu_send"
+        android:id="@+id/sendButton"/>
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="شكراً لتواصلكم معنا ونود التنويه أنه سيتم الرد على شكواكم خلال فترة العمل"
+        android:textColor="#D10606"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+</LinearLayout>

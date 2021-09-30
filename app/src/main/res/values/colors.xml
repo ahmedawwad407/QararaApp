@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+        <color name="colorPrimary">#2a7ee6</color>
+        <color name="colorPrimaryDark">#9BD5EF</color>
+        <color name="colorAccent">#FF4081</color>
+        <color name="zircon">#e0e6e4</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="pink">#F690B2</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tabSelectedTextColor">#FF1100</color>
+    <color name="tabIndicatorColor">#FF1100</color>
+    <color name="itemIconTint">#6ECFFA</color>
+    <color name="tabTextColor">@color/black</color>
+    <color name="tabIconTint">#6ECFFA</color>
+    <color name="color1">#E11B0DE1</color>
+    <color name="color2">#D820D6</color>
+    <color name="color3">#9C0063</color>
+    <color name="color4">#A13A01</color>
+    <color name="color5">#6A00FF</color>
+    <color name="color6">#BD2C2C</color>
+    <color name="color7">#F06292</color>
+    <color name="color8">#C6416E</color>
+    <color name="colorRed">#FF1100</color>
+    <color name="headerIconTint">#00EAFF</color>
+    </resources>

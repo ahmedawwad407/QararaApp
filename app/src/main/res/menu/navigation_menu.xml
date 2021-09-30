@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--android:checkableBehavior choice single item -->
+    <!--android:id="@+id/group" id important visible groube(line) -->
+
+    <group
+        android:id="@+id/group"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/home"
+            android:title="الرئيسية" />
+        <item
+            android:id="@+id/News"
+            android:icon="@drawable/newspaper"
+            android:title="الأخبار" />
+    </group>
+
+    <item android:title="الخدمات">
+        <menu>
+
+            <group
+                android:id="@+id/group1"
+                android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/Services1"
+                    android:icon="@drawable/transaction"
+                    android:title="متابعة المعاملات" />
+                <item
+                    android:id="@+id/Services2"
+                    android:icon="@drawable/bill"
+                    android:title="فاتورتي" />
+                <item
+                    android:id="@+id/Services3"
+                    android:icon="@drawable/icon_count"
+                    android:title="إدخال قراءة العداد"
+
+                    />
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="شكاوي و الاستفسارات">
+        <menu>
+
+            <group
+                android:id="@+id/group2"
+                android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/Services4"
+                    android:icon="@drawable/iconcomplaints"
+                    android:title="تقديم شكوى" />
+                <item
+                    android:id="@+id/Services5"
+                    android:icon="@drawable/display"
+                    android:title="عرض الشكاوي و الردود"
+
+                    />
+
+            </group>
+        </menu>
+
+    </item>
+    <item android:title="صورة جوية">
+        <menu>
+
+            <group
+                android:id="@+id/group3"
+                android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/Services6"
+                    android:title="الخريطة"
+                    android:icon="@drawable/location"
+
+/>
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="إضافات">
+        <menu>
+
+            <group
+                android:id="@+id/group4"
+                android:checkableBehavior="none">
+                <item
+                    android:id="@+id/VideoScreen"
+                    android:icon="@drawable/video"
+                    android:title="فيديو عن البلدية"
+
+                    />
+                <item
+                    android:id="@+id/ImageScreen"
+                    android:icon="@drawable/image"
+                    android:title="صور عن البلدية" />
+                <item
+                    android:id="@+id/AboutApp"
+                    android:icon="@drawable/about"
+                    android:title="عن تطبيق" />
+                <item
+                    android:id="@+id/logOut"
+                    android:icon="@drawable/logout"
+                    android:title="تسجيل الخروج" />
+            </group>
+        </menu>
+
+    </item>
+</menu>

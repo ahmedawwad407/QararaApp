@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">بلدية القرارة</string>
+    <string name="facebook_app_id">658099665584109</string>
+    <string name="fb_login_protocol_scheme">fb658099665584109</string>
+    <string name="prompt_email">البريد الإلكتروني</string>
+    <string name="prompt_password">كلمة المرور</string>
+    <string name="prompt_ConfirmPassword">تأكيد كلمة المرور </string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="create_new">اذا لم تمتلك حساب او اشتراك؟<b> انقر هنا للاشتراك</b> </string>
+    <string name="name">الإسم رباعي</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="Subscription_number">رقم إشتراك المياه</string>
+    <string name="register">التسجيل</string>
+    <string name="name_error">الرجاء ادخال الاسم الصحيح </string>
+    <string name="phone_error">الرجاء ادخال رقم الهاتف الصحيح</string>
+    <string name="subscription_error">الرجاء ادخال رقم اشتراك المياه الصحيح</string>
+    <string name="email_error">الرجاء ادخال البريد الإلكتروني الصحيح</string>
+    <string name="error_invalid_email">البريد الإلكتروني غير صالح</string>
+    <string name="password_error">الرجاء ادخال كلمة المرور الصحيحة</string>
+    <string name="ConfirmPassword_error">الرجاء ادخال كلمة مرور التأكيد الصحيحة</string>
+    <string name="NotMatchPass_error">كلمة المرور غير متطابقة</string>
+    <string name="error_invalid_password">الرجاء إدخال كلمة مرور لا تقل عن 6 أحرف</string>
+    <string name="Password_reminder">هل نسيت كلمة المرور؟</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="spinnerarea">
+        <item>منطقة 86</item>
+        <item>السريج</item>
+        <item>أل عبد الغفور و فياض</item>
+        <item>منطقة العبادلة</item>
+        <item>منطقة الغربية</item>
+        <item>منطقة المحررات</item>
+        <item>منطقة المواصي</item>
+    </string-array>
+    <string-array name="spinnercategory">
+        <item>قسم المياه والصرف الصحي</item>
+        <item>قسم التنظيم والتخطيط</item>
+        <item>قسم المالية</item>
+        <item>الشؤون الإدارية</item>
+        <item>قسم الصيانة</item>
+        <item>شكوى عامة</item>
+    </string-array>
+    <string-array name="spinnerItems">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+    </string-array>
+</resources>
