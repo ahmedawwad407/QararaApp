@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--android:checkableBehavior choice single item -->
+<!--android:id="@+id/group" id important visible groube(line) -->
+
+    <group
+        android:id="@+id/group"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/house"
+            android:title="الرئيسية" />
+        <item
+            android:id="@+id/News"
+            android:icon="@drawable/newspaper"
+            android:title="الأخبار" />
+    </group>
+
+    <item android:title="إضافات">
+        <menu>
+
+            <group
+                android:id="@+id/group1"
+                android:checkableBehavior="none">
+                <item
+                    android:id="@+id/VideoScreen"
+                    android:icon="@drawable/youtube1"
+                    android:title="فيديو عن البلدية"
+
+                    />
+                <item
+                    android:id="@+id/ImageScreen"
+                    android:icon="@drawable/picture"
+                    android:title="صور عن البلدية" />
+                <item
+                    android:id="@+id/AboutApp"
+                    android:icon="@drawable/information"
+                    android:title="عن تطبيق" />
+                <item
+                    android:id="@+id/logOut"
+                    android:icon="@drawable/logout"
+                    android:title="تسجيل الخروج" />
+            </group>
+        </menu>
+
+    </item>
+</menu>

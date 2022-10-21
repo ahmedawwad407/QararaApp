@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+    android:padding="25dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="57dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvProductReviewRating12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginBottom="17dp"
+            android:background="@color/red"
+            android:drawablePadding="@dimen/spacing_control"
+            android:drawableTint="@color/commonColorWhite"
+            android:padding="@dimen/_5sdp"
+            android:text="تسديد الفتورة"
+            android:textColor="@color/commonColorWhite"
+            android:textSize="@dimen/font_size_small" />
+
+        <TextView
+            android:id="@+id/tvProductReviewCmt11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tvProductReviewRating12"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="@dimen/spacing_control"
+            android:layout_toEndOf="@id/tvProductReviewRating12"
+            android:gravity="start"
+            android:text="إجمالي كمية الاستهلاك المياه : "
+            android:textAppearance="@style/FontMedium"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="@dimen/font_size_small" />
+
+        <TextView
+            android:id="@+id/tvProductReviewCmt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-7dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="@dimen/spacing_control"
+            android:layout_toEndOf="@id/tvProductReviewCmt11"
+            android:gravity="start"
+            android:text="60"
+            android:textAppearance="@style/FontMedium"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="@dimen/font_size_small" />
+
+        <TextView
+            android:id="@+id/tvProductReviewDuration11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvProductReviewCmt1"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="@dimen/spacing_standard_new"
+            android:layout_toEndOf="@id/tvProductReviewRating12"
+            android:gravity="end|center_vertical"
+            android:text="تاريخ : "
+            android:textColor="@color/textColorSecondary" />
+
+        <TextView
+            android:id="@+id/tvProductReviewDuration1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tvProductReviewDuration11"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="@dimen/spacing_standard_new"
+            android:layout_toEndOf="@id/tvProductReviewDuration11"
+            android:gravity="end|center_vertical"
+            android:text="05 Feb 2020"
+            android:textColor="@color/textColorSecondary" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.qarapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/logo"
+        android:largeHeap="true"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QarApp">
+        <activity
+            android:name=".ChatActivityCompalints"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ChatActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ChatActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.UsersActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".Annual_Reports"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Bill_Management"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.cmanager"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.bmanager"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.SendAllUsers"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterMyBillScreen"
+            android:exported="false" />
+        <activity
+            android:name=".ListMyBillScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Search_Users"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.UsersActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ChatUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.UsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ListChat"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.TransactionsScreenAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.sign_admin"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.MyBillScreenAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.CounterReadScreenAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ChatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.RegisterComplaint"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <activity
+            android:name=".UserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="true" />
+        <activity android:name=".PrivacyServices" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeeActivity"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".webview1"
+            android:hardwareAccelerated="false" />
+        <activity
+            android:name=".CallMeScreen"
+            android:hardwareAccelerated="false" />
+        <activity
+            android:name=".DisplayComplaintsScreen"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ComplaintsScreen"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyBillScreen"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CounterReadScreen"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TransactionsScreen"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NewsScreen" />
+        <activity
+            android:name=".VideoOffLoading"
+            android:hardwareAccelerated="false" />
+        <activity
+            android:name=".ImagesOfNews"
+            android:hardwareAccelerated="false" />
+        <activity android:name=".AboutScreen" />
+        <activity android:name=".passwordReminderActivity" />
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

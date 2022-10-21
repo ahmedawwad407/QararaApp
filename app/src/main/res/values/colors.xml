@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#2a7ee6</color>
+    <color name="colorPrimaryDark">#9BD5EF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="zircon">#e0e6e4</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="pink">#F690B2</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tabSelectedTextColor">#FF1100</color>
+    <color name="tabIndicatorColor">#FF1100</color>
+    <color name="itemIconTint">#6ECFFA</color>
+    <color name="tabTextColor">@color/black</color>
+    <color name="tabIconTint">#6ECFFA</color>
+    <color name="color1">#E11B0DE1</color>
+    <color name="background_color">#FCFDFD</color>
+    <color name="color2">#D820D6</color>
+    <color name="color3">#9C0063</color>
+    <color name="color4">#A13A01</color>
+    <color name="color5">#6A00FF</color>
+    <color name="color6">#BD2C2C</color>
+    <color name="color7">#F06292</color>
+    <color name="color8">#C6416E</color>
+    <color name="colorRed">#FF1100</color>
+    <color name="headerIconTint">#00EAFF</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="view_color">#eaeaea</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="colorText">#464646</color>
+    <color name="colorDarkGray">#464646</color>
+    <color name="colorTextBackground">#f5f5f5</color>
+    <color name="colorItemLeft">#E6E4E4</color>
+    <color name="colorItemRight">#813fd7</color>
+    <color name="colorWhite">#fff</color>
+
+    <color name="editText_background">#F1F1F1</color>
+    <color name="tomato">#FF6347</color>
+    <color name="dots_color">#A5A5A5</color>
+    <color name="faceBooK_blue">#343B9D</color>
+    <color name="google_red">#CB3634</color>
+    <color name="twitter_blue">#358CC9</color>
+    <color name="editText_background_active">#FFFCEAE8</color>
+    <color name="cat_1">#FA4352</color>
+    <color name="cat_2">#34B5C8</color>
+    <color name="cat_3">#FED76D</color>
+    <color name="cat_4">#0C5A93</color>
+    <color name="cat_5">#0C3A6A</color>
+    <color name="commonColorWhite">#FFFFFF</color>
+    <color name="cat_6">#4D84B1</color>
+    <color name="cat_7">#3CA69B</color>
+    <color name="cat_8">#D95362</color>
+    <color name="sidebar_background">#EFEEEF</color>
+    <color name="favourite_background">#FFEBEC</color>
+    <color name="favourite_unselected_background">#ECECEC</color>
+    <color name="yellow">#FEBA39</color>
+    <color name="light_gray">#ECECEC</color>
+    <color name="green">#31E400</color>
+    <color name="red">#F61929</color>
+    <color name="light_green">#81C049</color>
+    <color name="more_infoHeading_background">#DDDDDD</color>
+    <color name="more_infoValue_background">#F3F3F3</color>
+    <color name="item_background">#EFF3F6</color>
+
+    <color name="light_grey">#FAFAFA</color>
+    <color name="checkbox_color">#DFDFDF</color>
+    <color name="itemText_background">#F8F8F8</color>
+    <color name="track_green">#64B931</color>
+    <color name="track_yellow">#ECC134</color>
+    <color name="track_red">#F61929</color>
+    <color name="track_grey">#D3D3D3</color>
+    <color name="radiobuttonTint">#4353FA</color>
+    <color name="scratch_start_gradient">#e5e5e5</color>
+    <color name="scratch_end_gradient">#cccccc</color>
+    <color name="light_color_primary">#FFE8EA</color>
+    <color name="bottom_bar_color">#f3f3f3</color>
+    <color name="item_background_common">#EFF3F6</color>
+    <color name="gray_80">#80ECECEC</color>
+    <color name="color_selected">#79303F9F</color>
+
+    <array name="rainbow">
+        <item>@color/red</item>
+        <item>@color/yellow</item>
+        <item>@color/green</item>
+    </array>
+
+</resources>

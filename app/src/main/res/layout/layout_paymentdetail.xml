@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp"
+    android:background="@drawable/bg_rectangle_order"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8sp"
+        android:layout_marginEnd="8sp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/OrderTextView"
+            android:text="عنوان الشكوى" />
+
+        <TextView
+            android:id="@+id/Heading"
+            style="@style/OrderTextView"
+            android:layout_marginStart="4dp"
+            android:text="offer_not_available"
+            android:textColor="@color/textColorPrimary" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8sp"
+            android:layout_marginEnd="8sp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/OrderTextView"
+                android:text="رقم الهوية" />
+
+            <TextView
+                android:id="@+id/tvOffer22"
+                style="@style/OrderTextView"
+                android:layout_marginStart="4dp"
+                android:text="_available"
+                android:textColor="@color/textColorPrimary" />
+
+
+            <TextView
+                style="@style/OrderTextView"
+                android:layout_marginStart="8sp"
+                android:text="رقم الجوال" />
+
+            <TextView
+                android:id="@+id/tvOffer"
+                style="@style/OrderTextView"
+                android:layout_marginStart="4dp"
+                android:text="available"
+                android:textColor="@color/textColorPrimary" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8sp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/OrderTextView"
+                android:text="المنطقة" />
+
+            <TextView
+                android:id="@+id/tvShippingCharge"
+                style="@style/OrderTextView"
+                android:layout_marginStart="4sp"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                style="@style/OrderTextView"
+                android:text="أقرب معلم" />
+
+            <TextView
+                android:id="@+id/tvShippingCharge2"
+                style="@style/OrderTextView"
+                android:layout_marginStart="4sp"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPaymentMethod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8sp"
+            android:layout_marginTop="4sp"
+            android:layout_marginEnd="8sp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/OrderTextView"
+                android:text="payment_method" />
+
+            <TextView
+                android:id="@+id/tvPaymentMethod"
+                style="@style/OrderTextView"
+                android:layout_marginStart="4sp"
+                android:gravity="start"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8sp"
+            android:layout_marginTop="8sp"
+            android:layout_marginEnd="8sp"
+            android:layout_marginBottom="4sp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/OrderTextView"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="0dp"
+                android:gravity="center_vertical"
+                android:text="التصنيف" />
+
+            <TextView
+                android:id="@+id/tvTotalAmount"
+                style="@style/OrderTextView"
+                android:layout_marginStart="4sp"
+                android:layout_marginTop="0dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                tools:text="$50" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8sp"
+            android:layout_marginEnd="8sp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/OrderTextView"
+                android:text="نص الشكوى" />
+
+            <TextView
+                android:id="@+id/tvOffer2"
+                style="@style/OrderTextView"
+                android:layout_marginStart="4dp"
+                android:text="_available"
+                android:textColor="@color/textColorPrimary" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8sp"
+            android:layout_marginEnd="8sp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:background="@color/colorPrimary"
+                android:text="في انتظار المراجعة"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:background="@color/cat_3"
+                android:text="متوقف مؤقتًا"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_weight="@integer/material_motion_duration_long_1"
+                android:background="@color/red"
+                android:text="مرفوض"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+

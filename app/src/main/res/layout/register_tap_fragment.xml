@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    tools:context=".Admin.SignUp_User">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/signUp_name"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            app:boxStrokeColor="@color/color6"
+            app:boxStrokeWidth="2dp"
+            app:errorEnabled="true"
+            app:hintTextColor="@color/color6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.459"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".8"
+            app:startIconDrawable="@drawable/ic_outline_how_to_reg_24">
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:background="@drawable/edit_text_background"
+                    android:hint="@string/name"
+                    android:inputType="text"
+                    android:padding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/signUp_email"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            app:boxStrokeColor="@color/color6"
+            app:boxStrokeWidth="2dp"
+            app:errorEnabled="true"
+            app:hintTextColor="@color/color6"
+            app:startIconDrawable="@drawable/ic_baseline_alternate_email_24"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.451"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signUp_name"
+            app:layout_constraintWidth_percent=".8">
+
+                <EditText
+                    android:id="@+id/eemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:background="@drawable/edit_text_background"
+                    android:hint="@string/prompt_email"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                   />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/signUp_phone"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            app:boxStrokeColor="@color/color6"
+            app:boxStrokeWidth="2dp"
+            app:errorEnabled="true"
+            app:hintTextColor="@color/color6"
+            app:startIconDrawable="@drawable/ic_phone"
+            app:layout_constraintHorizontal_bias="0.451"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signUp_email"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintWidth_percent=".8">
+
+                <EditText
+                    android:id="@+id/pphone"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:hint="@string/phone_number"
+                    android:inputType="number"
+                    android:background="@drawable/edit_text_background"
+                    android:padding="10dp"
+                    tools:ignore="TextFields" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/signUp_Subscription"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            app:boxStrokeColor="@color/color6"
+            app:boxStrokeWidth="2dp"
+            app:errorEnabled="true"
+            app:hintTextColor="@color/color6"
+            app:startIconDrawable="@drawable/one"
+            app:layout_constraintHorizontal_bias="0.451"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signUp_phone"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintWidth_percent=".8">
+
+                <EditText
+                    android:id="@+id/Subscription"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:hint="@string/Subscription_number"
+                    android:inputType="number"
+                    android:background="@drawable/edit_text_background"
+                    android:padding="10dp"
+                 />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/signup_password"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            app:boxStrokeColor="@color/color6"
+            app:boxStrokeWidth="2dp"
+            app:errorEnabled="true"
+            app:passwordToggleEnabled="true"
+            app:hintTextColor="@color/color6"
+            app:startIconDrawable="@drawable/ic_password"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.451"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signUp_Subscription"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintWidth_percent=".8">
+
+                <EditText
+                    android:id="@+id/ppassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:hint="@string/prompt_password"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:background="@drawable/edit_text_background"
+                    tools:ignore="TextFields" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_gradient"
+            android:gravity="center"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signup_password"
+            app:layout_constraintVertical_bias="0.13"
+            app:layout_constraintWidth_percent=".8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

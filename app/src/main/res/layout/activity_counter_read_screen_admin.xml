@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/zircon"
+    tools:context=".Admin.CounterReadScreenAdmin">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".HomeActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rectangel_3"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="ادخال قراءة العداد"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/ername"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_background3"
+            android:gravity="center"
+            android:hint="أدخل الاسم "
+            android:inputType="textPersonName"
+            android:textColor="#000"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/erNum"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_background3"
+            android:gravity="center"
+            android:hint="أدخل اول خمسة أرقام من اليسار"
+            android:inputType="number"
+            android:textColor="#000"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/meerNum"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_background3"
+            android:gravity="center"
+            android:hint="تأكيد القراءة"
+            android:inputType="number"
+            android:textColor="#000"
+            android:textColorHint="#000" />
+
+        <Button
+            android:id="@+id/Btn3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@drawable/button_background"
+            android:gravity="center"
+            android:text="إرسال"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/NavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/header_rectangle"
+        app:headerLayout="@layout/hidder_layout"
+        app:itemIconTint="@color/purple_700"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/navigation2_menu">
+
+        <include layout="@layout/hidder_layout" />
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+
